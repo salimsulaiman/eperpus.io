@@ -1,0 +1,147 @@
+.nav a {
+  text-decoration: none;
+  color: rgb(235, 235, 235);
+}
+.nav a:hover {
+  text-decoration: none;
+  color: white;
+}
+.jumbotron {
+  margin-top: 90px;
+  background-image: url("assets/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.swiper img {
+  width: 200px;
+}
+.newest {
+  padding: 120px 0;
+}
+.featured {
+  padding: 120px 0;
+}
+.recommended {
+  padding: 120px 0;
+}
+.newest h3 {
+  position: relative;
+  font-weight: 100;
+}
+.featured h3 {
+  position: relative;
+  font-weight: 100;
+}
+/* swiper */
+.jumbotron .swiper {
+  width: 240px;
+}
+
+.jumbotron .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.offcanvas .h5 {
+  font-weight: 200;
+}
+.offcanvas .h5 a {
+  text-decoration: none;
+}
+
+.jumbotron .btn {
+  background-color: #29bb89;
+  color: white;
+}
+.jumbotron .btn:hover {
+  background-color: #289672;
+  color: white;
+}
+.newest .btn {
+  background-color: #29bb89;
+  color: white;
+}
+.newest .btn:hover {
+  background-color: #289672;
+  color: white;
+}
+
+.newest hr {
+  border-top: 5px dashed #8c8b8b;
+  width: 50%;
+}
+.featured hr {
+  border-top: 5px dashed #8c8b8b;
+  width: 50%;
+}
+.recommended hr {
+  border-top: 5px dashed #8c8b8b;
+  width: 50%;
+}
+/* newest swiper */
+.newest .swiper {
+  width: 100%;
+  height: 100%;
+}
+.newest .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.featured .btn {
+  background-color: #29bb89;
+  color: white;
+}
+.featured .btn:hover {
+  background-color: #289672;
+  color: white;
+}
+
+/* featured swiper */
+.featured {
+  background-color: rgb(238, 238, 238);
+}
+.featured .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.featured .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  filter: blur(2px);
+}
+.featured .swiper-slide-active {
+  filter: blur(0px);
+}
+
+.featured .swiper-slide img {
+  width: 100%;
+}
+
+/* recommended swiper */
+.recommended .swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.recommended .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  filter: blur(2px);
+}
+.recommended .swiper-slide-active {
+  filter: blur(0px);
+}
+
+.recommended .swiper-slide img {
+  width: 100%;
+}
