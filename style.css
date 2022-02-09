@@ -33,6 +33,10 @@
   position: relative;
   font-weight: 100;
 }
+.recommended h3 {
+  position: relative;
+  font-weight: 100;
+}
 /* swiper */
 .jumbotron .swiper {
   width: 240px;
